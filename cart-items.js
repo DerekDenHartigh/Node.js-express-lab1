@@ -26,7 +26,7 @@ cartItemsPage.post("/cartItemsPage", (req, res) => {
 // accept PUT request at URI: /cartItemsPage
 cartItemsPage.put("/cartItemsPage/:id", (req, res) => {
     res.send("altering cart item");
-    res.write(req.params.id);
+    console.log(req.params.id, req.body);
     });
 // accept DELETE request at URI: /cartItemsPage
 cartItemsPage.delete("/cartItemsPage/:id", (req, res) => {
