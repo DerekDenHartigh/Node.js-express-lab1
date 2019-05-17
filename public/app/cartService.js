@@ -8,7 +8,7 @@ angular
     service.getAllItems = ()=>{
         return $q(function(resolve, reject){
             // BJ had me take out the . from './cartItemPage - shouldn't need it when hosting my own server
-            $http.get('/cartItemPage') // calls our localhost:3000/cartItemPage endpoint
+            $http.get('/cartItemsPage') // calls our localhost:3000/cartItemPage endpoint
             .then((response)=>{ // takes response data, logs it, and returns it (via resolve)
                 console.log(response.data)
                 resolve(response.data);

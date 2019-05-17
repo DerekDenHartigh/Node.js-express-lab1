@@ -23,6 +23,6 @@ function CartListController(cartService) {
 angular
 .module('CartApp')  
 .component('cartList', {
-    templateUrl: './cartListTemplate',
+    templateUrl: 'app/components/cartList/cartListTemplate.html',
     controller: CartListController
 });
