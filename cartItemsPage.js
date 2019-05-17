@@ -7,7 +7,7 @@ const cartItemsPage = express.Router();  // Router has to be capital
 cartItemsPage.get("/cartItemsPage", (req, res) => {
     // res.writeHead(200, {'content-type': "application/json"})
     console.log("here are the items in your cart:\n")
-    res.send(cartItems);
+    res.send(cartItems); // this corresponds to the data being getted
     });
 
 // accept POST request at URI: /cartItemsPage

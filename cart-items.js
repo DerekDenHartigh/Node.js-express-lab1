@@ -1,7 +1,5 @@
 "use strict";
 
-const express = require("express");
-
 let cartItems = [
     {"id": 1, "product": "banana", "price": 15, "quantity": 99},
     {"id": 2, "product": "cofee-beans", "price": 10, "quantity": 1},
