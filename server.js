@@ -1,7 +1,7 @@
 "use strict";
 
 const express = require('express');
-const cartItemsPage = require("./cart-items.js");
+const cartItemsPage = require("./cartItemsPage.js");
 const app = express();
 app.use(express.json());
 
